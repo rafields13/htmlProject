@@ -1,0 +1,477 @@
+@charset "UTF-8";
+
+* {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 1em;
+
+    margin: 0 auto;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+#header {
+
+    text-align: center;
+
+}
+
+#menu {
+
+    background-color: black;
+
+    text-align: center;
+
+}
+
+#menu a {
+
+    color: white;
+
+    padding: 20px;
+
+    padding-inline: 28px;
+
+    font-size: 35px;
+
+    text-decoration: none;
+
+    display: inline-block;
+
+}
+
+#menu a:hover {
+
+    background-color: darkcyan;
+
+}
+
+#firstTitleContent {
+
+    margin: 18px auto;
+
+    text-align: center;
+
+}
+
+#wordSection {
+
+    display: flex;
+
+    font-size: 30px;
+
+    text-align: center;
+
+    white-space: nowrap;
+
+    margin: 50px auto;
+
+    width: 240px;
+
+}
+
+#wordDetails {
+
+    margin-left: 30px;
+
+}
+
+#wordDetails ul > li {
+
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+
+}
+
+#wordDetails > ul > li >  a {
+
+    color: darkcyan;
+
+}
+
+#wordLogo {
+
+    width: 175px;
+
+    height: 170px;
+
+}
+
+#excelSection {
+
+    display: flex;
+
+    font-size: 30px;
+
+    text-align: center;
+
+    white-space: nowrap;
+
+    margin: 50px auto;
+
+    width: 240px;
+
+}
+
+#excelDetails {
+
+    margin-left: 30px;
+
+}
+
+#excelDetails ul > li {
+
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+
+}
+
+#excelDetails > ul > li >  a {
+
+    color: darkcyan;
+
+}
+
+#excelLogo {
+
+    width: 175px;
+
+    height: 170px;
+
+}
+
+#powerPointSection {
+
+    display: flex;
+
+    font-size: 30px;
+
+    text-align: center;
+
+    white-space: nowrap;
+
+    margin: 50px auto;
+
+    width: 240px;
+
+}
+
+#powerPointDetails {
+
+    margin-left: 30px;
+
+}
+
+#powerPointDetails ul > li {
+
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+
+}
+
+#powerPointDetails > ul > li >  a {
+
+    color: darkcyan;
+
+}
+
+#powerPointLogo {
+
+    width: 175px;
+
+    height: 170px;
+
+}
+
+#secondTitleContent {
+
+    margin: 18px auto;
+
+    text-align: center;
+
+}
+
+#pythonSection {
+
+    display: flex;
+
+    font-size: 30px;
+
+    text-align: center;
+
+    white-space: nowrap;
+
+    margin: 50px auto;
+
+    width: 240px;
+
+}
+
+#pythonDetails {
+
+    margin-left: 30px;
+
+}
+
+#pythonDetails ul > li {
+
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+
+}
+
+#pythonDetails > ul > li >  a {
+
+    color: darkcyan;
+
+}
+
+#pythonLogo {
+
+    width: 175px;
+
+    height: 170px;
+
+}
+
+#golangSection {
+
+    display: flex;
+
+    font-size: 30px;
+
+    text-align: center;
+
+    white-space: nowrap;
+
+    margin: 50px auto;
+
+    width: 240px;
+
+}
+
+#golangDetails {
+
+    margin-left: 30px;
+
+}
+
+#golangDetails ul > li {
+
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+
+}
+
+#golangDetails > ul > li >  a {
+
+    color: darkcyan;
+
+}
+
+#golangLogo {
+
+    width: 175px;
+
+    height: 170px;
+
+}
+
+#htmlSection {
+
+    display: flex;
+
+    font-size: 30px;
+
+    text-align: center;
+
+    white-space: nowrap;
+
+    margin: 50px auto;
+
+    width: 240px;
+
+}
+
+#htmlDetails {
+
+    margin-left: 30px;
+
+}
+
+#htmlDetails ul > li {
+
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+
+}
+
+#htmlDetails > ul > li >  a {
+
+    color: darkcyan;
+
+}
+
+#htmlLogo {
+
+    width: 1750px;
+
+    height: 170px;
+
+}
+
+#thirdTitleContent {
+
+    margin: 18px auto;
+
+    text-align: center;
+
+}
+
+#gmailSection {
+
+    display: flex;
+
+    font-size: 30px;
+
+    text-align: center;
+
+    white-space: nowrap;
+
+    margin: 50px auto;
+
+    width: 240px;
+
+}
+
+#gmailDetails {
+
+    margin-left: 30px;
+
+}
+
+#gmailDetails ul > li {
+
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+
+}
+
+#gmailDetails > ul > li >  a {
+
+    color: darkcyan;
+
+}
+
+#gmailLogo {
+
+    width: 175px;
+
+    height: 170px;
+
+}
+
+#googleDriveSection {
+
+    display: flex;
+
+    font-size: 30px;
+
+    text-align: center;
+
+    white-space: nowrap;
+
+    margin: 50px auto;
+
+    width: 240px;
+
+}
+
+#googleDriveDetails {
+
+    margin-left: 30px;
+
+}
+
+#googleDriveDetails ul > li {
+
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+
+}
+
+#googleDriveDetails > ul > li >  a {
+
+    color: darkcyan;
+
+}
+
+#googleDriveLogo {
+
+    width: 175px;
+
+    height: 170px;
+
+}
+
+#googleFontsSection {
+
+    display: flex;
+
+    font-size: 30px;
+
+    text-align: center;
+
+    white-space: nowrap;
+
+    margin: 50px auto;
+
+    width: 240px;
+
+}
+
+#googleFontsDetails {
+
+    margin-left: 30px;
+
+}
+
+#googleFontsDetails ul > li {
+
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+
+}
+
+#googleFontsDetails > ul > li >  a {
+
+    color: darkcyan;
+
+}
+
+#googleFontsLogo {
+
+    width: 175px;
+
+    height: 170px;
+
+}
+
+#footer {
+
+    text-align: center;
+
+}

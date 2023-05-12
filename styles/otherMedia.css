@@ -1,0 +1,487 @@
+@charset "UTF-8";
+
+@media print {
+
+    * {
+
+        font-family: "Courier New", Courier, monospace;
+
+    }
+
+    #menu {
+
+        display: none;
+
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    #menu > a {
+
+        padding: 4px;
+
+        padding-inline: 42px;
+
+        font-size:26px;
+    }
+
+    #firstTitleContent {
+
+      font-size: 20px;
+
+    }
+
+    #wordSection {
+
+        font-size: 15px;
+
+    }
+
+    #wordLogo {
+
+        width: 100px;
+
+        height: 96px;
+
+    }
+
+    #excelSection {
+
+        font-size: 15px;
+
+    }
+
+    #excelLogo {
+
+        width: 100px;
+
+        height: 96px;
+
+    }
+
+    #powerPointSection {
+
+        font-size: 15px;
+
+    }
+
+    #powerPointLogo {
+
+        width: 100px;
+
+        height: 96px;
+
+    }
+
+    #secondTitleContent {
+
+        font-size: 20px;
+
+    }
+
+    #pythonSection {
+
+        font-size: 15px;
+
+    }
+
+    #pythonLogo {
+
+        width: 100px;
+
+        height: 96px;
+
+    }
+
+    #golangSection {
+
+        font-size: 15px;
+
+    }
+
+    #golangLogo {
+
+        width: 100px;
+
+        height: 96px;
+
+    }
+
+    #htmlSection {
+
+        font-size: 15px;
+
+    }
+
+    #htmlLogo {
+
+        width: 100px;
+
+        height: 96px;
+
+    }
+
+    #thirdTitleContent {
+
+        font-size: 20px;
+
+    }
+
+    #gmailSection {
+
+        font-size: 15px;
+
+    }
+
+    #gmailLogo {
+
+        width: 100px;
+
+        height: 96px;
+
+    }
+
+    #googleDriveSection {
+
+        font-size: 15px;
+
+    }
+
+    #googleDriveLogo {
+
+        width: 100px;
+
+        height: 96px;
+
+    }
+
+    #googleFontsSection {
+
+        font-size: 15px;
+
+    }
+
+    #googleFontsLogo {
+
+        width: 100px;
+
+        height: 96px;
+
+    }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    #menu > a {
+
+        padding: 8px;
+
+        padding-inline: 53px;
+
+        font-size:31px;
+    }
+
+    #firstTitleContent {
+
+        font-size: 25px;
+
+    }
+
+    #wordSection {
+
+        font-size: 20px;
+
+    }
+
+    #wordLogo {
+
+        width: 130px;
+
+        height: 124px;
+
+    }
+
+    #excelSection {
+
+        font-size: 20px;
+
+    }
+
+    #excelLogo {
+
+        width: 130px;
+
+        height: 124px;
+    }
+
+    #powerPointSection {
+
+        font-size: 20px;
+
+    }
+
+    #powerPointLogo {
+
+        width: 130px;
+
+        height: 124px;
+
+    }
+
+    #secondTitleContent {
+
+        font-size: 25px;
+
+    }
+
+    #pythonSection {
+
+        font-size: 20px;
+
+    }
+
+    #pythonLogo {
+
+        width: 130px;
+
+        height: 124px;
+
+    }
+
+    #golangSection {
+
+        font-size: 20px;
+
+    }
+
+    #golangLogo {
+
+        width: 130px;
+
+        height: 124px;
+
+    }
+
+    #htmlSection {
+
+        font-size: 20px;
+
+    }
+
+    #htmlLogo {
+
+        width: 130px;
+
+        height: 124px;
+
+    }
+
+    #thirdTitleContent {
+
+        font-size: 25px;
+
+    }
+
+    #gmailSection {
+
+        font-size: 20px;
+
+    }
+
+    #gmailLogo {
+
+        width: 130px;
+
+        height: 124px;
+
+    }
+
+    #googleDriveSection {
+
+        font-size: 20px;
+
+    }
+
+    #googleDriveLogo {
+
+        width: 130px;
+
+        height: 124px;
+
+    }
+
+    #googleFontsSection {
+
+        font-size: 20px;
+
+    }
+
+    #googleFontsLogo {
+
+        width: 130px;
+
+        height: 124px;
+
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    #menu > a {
+
+        padding: 10px;
+
+        padding-inline: 50px;
+
+        font-size:30px;
+    }
+
+    #firstTitleContent {
+
+        font-size: 30px;
+
+    }
+
+    #wordSection {
+
+        font-size: 25px;
+
+    }
+
+    #wordLogo {
+
+        width: 150px;
+
+        height: 144px;
+
+    }
+
+    #excelSection {
+
+        font-size: 25px;
+
+    }
+
+    #excelLogo {
+
+        width: 150px;
+
+        height: 144px;
+
+    }
+
+    #powerPointSection {
+
+        font-size: 25px;
+
+    }
+
+    #powerPointLogo {
+
+        width: 150px;
+
+        height: 144px;
+
+    }
+
+    #secondTitleContent {
+
+        font-size: 30px;
+
+    }
+
+    #pythonSection {
+
+        font-size: 25px;
+
+    }
+
+    #pythonLogo {
+
+        width: 150px;
+
+        height: 144px;
+
+    }
+
+    #golangSection {
+
+        font-size: 25px;
+
+    }
+
+    #golangLogo {
+
+        width: 150px;
+
+        height: 144px;
+
+    }
+
+    #htmlSection {
+
+        font-size: 25px;
+
+    }
+
+    #htmlLogo {
+
+        width: 150px;
+
+        height: 144px;
+
+    }
+
+    #thirdTitleContent {
+
+        font-size: 30px;
+
+    }
+
+    #gmailSection {
+
+        font-size: 25px;
+
+    }
+
+    #gmailLogo {
+
+        width: 150px;
+
+        height: 144px;
+
+    }
+
+    #googleDriveSection {
+
+        font-size: 25px;
+
+    }
+
+    #googleDriveLogo {
+
+        width: 150px;
+
+        height: 144px;
+
+    }
+
+    #googleFontsSection {
+
+        font-size: 25px;
+
+    }
+
+    #googleFontsLogo {
+
+        width: 150px;
+
+        height: 144px;
+
+    }
+
+}
