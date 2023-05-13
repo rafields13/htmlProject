@@ -20,11 +20,12 @@
 
     #menu > a {
 
-        padding: 4px;
+        padding: 5px;
 
-        padding-inline: 42px;
+        padding-inline: 54px;
 
-        font-size:26px;
+        font-size: 20px;
+
     }
 
     #firstTitleContent {
@@ -177,16 +178,17 @@
 
     #menu > a {
 
-        padding: 8px;
+        padding: 10px;
 
-        padding-inline: 53px;
+        padding-inline: 50px;
 
-        font-size:31px;
+        font-size:35px;
+
     }
 
     #firstTitleContent {
 
-        font-size: 25px;
+        font-size: 30px;
 
     }
 
@@ -233,7 +235,7 @@
 
     #secondTitleContent {
 
-        font-size: 25px;
+        font-size: 30px;
 
     }
 
@@ -281,7 +283,7 @@
 
     #thirdTitleContent {
 
-        font-size: 25px;
+        font-size: 30px;
 
     }
 
@@ -331,13 +333,26 @@
 
 @media screen and (min-width: 1200px) {
 
+    #header > h1 {
+
+        font-size: 75px;
+
+    }
+
+    #header > h2 {
+
+        font-size: 50px;
+
+    }
+
     #menu > a {
 
         padding: 10px;
 
-        padding-inline: 50px;
+        padding-inline: 57px;
 
-        font-size:30px;
+        font-size:31px;
+
     }
 
     #firstTitleContent {
